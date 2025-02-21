@@ -1,6 +1,3 @@
-import java.lang.*;
-
-
 public class MinMaxDivergence {
     public static void getDiverged(String array[]) {
         float avg = 0, m;

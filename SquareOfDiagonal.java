@@ -33,7 +33,7 @@ class DiagonalSquare {
                 if (i == j) {
                     s1 += m[i][j] * m[i][j];
                 }
-                if (j == m[0].length - i){
+                if (j == m[0].length - i - 1){
                     s2 += m[i][j] * m[i][j];
                 }
             }

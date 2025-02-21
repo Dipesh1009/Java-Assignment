@@ -1,4 +1,3 @@
-import java.lang.*;
 import java.util.Scanner;
 
 class SquareMatrix {
@@ -43,7 +42,6 @@ class SquareMatrix {
     }
 
     boolean isSparse() {
-        int n = matrix[0].length;
         int limit = (int)((matrix.length * matrix[0].length) * 0.66);
         for (int rows[] : matrix) {
             for (int i : rows) {

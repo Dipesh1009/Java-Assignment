@@ -1,3 +1,4 @@
+
 public class CLISum {
     public static void main(String s[]){
         int sum = 0, avg, min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;

@@ -1,5 +1,3 @@
-import java.lang.*;
-
 class Student {
     String name;
     int roll;

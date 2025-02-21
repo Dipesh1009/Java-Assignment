@@ -1,7 +1,9 @@
-import java.lang.*;
+
 import java.util.Scanner;
-import java.util.Random;
+
 import javap.Func;
+
+import java.util.Random;
 public class LabelledBreak {
     public static void main(String s[])
     {

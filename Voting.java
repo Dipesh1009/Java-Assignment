@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 import javap.Func;
 
 class Candidate {

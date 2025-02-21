@@ -1,5 +1,3 @@
-import java.lang.*;
-
 public class ZeroPositionMatrix {
     void displayZeroPosition(int arr[][]) {
         for (int i = 0; i < arr.length; i++) {
