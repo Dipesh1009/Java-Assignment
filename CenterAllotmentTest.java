@@ -152,8 +152,8 @@ class CenterManagement {
 
     boolean verifyRollNo(Candidate cand) {
         if (candListIndex >= 0) {
-            for (Candidate candidate : candidateList) {
-                if(cand.rollNo.equals(candidate.rollNo)) {
+            for (int i = 0; i <= candListIndex; i++) {
+                if(cand.rollNo.equals(candidateList[i].rollNo)) {
                     System.out.println("\nRoll number already registered, Enter correct details\n");
                     return false;
                 }
@@ -282,7 +282,7 @@ class CenterAllotment extends CenterManagement {
             do {   
                 System.out.print("\nEnter your Roll Number: ");
                 temp = sc.nextLine();
-                if (temp.length() > 4) {
+                if (temp.length() != 4) {
                     System.out.println("Enter correct 4 digit Roll Number");
                     continue;
                 }
@@ -344,7 +344,7 @@ class CenterAllotment extends CenterManagement {
                 showCenters();
                 System.out.println("Enter ID of three centers:");
                 for(int i = 0; i < 3; i++) {
-                    System.out.print("Center 1: ");
+                    System.out.print("Center" + (i+1) + ": ");
                     centerChoice[i] = sc.nextLine();
                 }
 

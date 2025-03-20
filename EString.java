@@ -48,6 +48,10 @@ class EString {
         }
         str = temp;
     }
+
+    char charAt(int index) {
+        return str.charAt(index);
+    }
     
     int countOccurrence(char c) {
         int count = 0;
